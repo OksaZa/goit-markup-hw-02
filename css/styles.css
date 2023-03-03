@@ -14,15 +14,12 @@
 address {
     font-style: normal;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style-type: none;
 }
-
 body {
     color: var(--color-primary);
     font-family: "Roboto", "Raleway", sans-serif;
