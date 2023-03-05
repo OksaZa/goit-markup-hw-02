@@ -17,6 +17,12 @@ body {
     font-size: 16px;
     line-height: calc(24/16);
 }
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
 .logo {
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -24,7 +30,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-decoration: none;
     color: var(--color-brand);
 }
 .logo-dark {
@@ -33,26 +38,21 @@ body {
 .logo-invert {
     color: var(--color-footer-logo-invert);
 }
-.header-link-list {
-    list-style: none;
-}
 .header-link-studio,
 .header-link-portfolio,
 .header-link-contacts {
     color: var(--color-primary);
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(24/16);
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
-
 .header-email,
 .header-tel {
     color: var(--color-secondary);
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .header-email:hover,
 .header-link-studio:hover,
@@ -68,9 +68,6 @@ body {
 }
 .header-contacts {
     font-style: normal;
-}
-.header-contacts-list {
-    list-style: none;
 }
 .main-section {
     background-color: var(--color-main-background);
@@ -113,12 +110,9 @@ body {
     text-transform: capitalize;
     letter-spacing: 0.02em;
 }
-.we-doing-list,
-.features-list,
-.our-team-list,
-.portfolio-btn-list,
-.portfolio-list {
-    list-style: none;
+.features-text,
+.team-text {
+    letter-spacing: 0.02em;
 }
 .footer-box {
     background-color: var(--color-main-background);
@@ -147,9 +141,7 @@ body {
     color: var(--color-invert);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.portfolio-list-link {
-    text-decoration: none;
-}
+
 .list-link-title {
     color: var(--color-primary);
     font-weight: 500;
