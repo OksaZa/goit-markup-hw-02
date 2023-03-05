@@ -38,32 +38,25 @@ body {
 .logo-invert {
     color: var(--color-footer-logo-invert);
 }
-.header-link-studio,
-.header-link-portfolio,
-.header-link-contacts {
+.header-link {
     color: var(--color-primary);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-email,
-.header-tel {
+.header-contacts-link {
     color: var(--color-secondary);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-email:hover,
-.header-link-studio:hover,
-.header-link-portfolio:hover,
-.header-link-contacts:hover {
+.header-link:hover,
+.header-contacts-link:hover {
     color: var(--color-active);
 }
-.header-email:focus,
-.header-link-studio:focus,
-.header-link-portfolio:focus,
-.header-link-contacts:focus {
+.header-link:focus,
+.header-contacts-link:focus {
     color: var(--color-active);
 }
 .header-contacts {
@@ -150,7 +143,7 @@ body {
     letter-spacing: 0.02em;
 }
 .list-link-text {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
